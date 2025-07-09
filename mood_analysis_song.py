@@ -7,7 +7,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import os
 
 genius = lyricsgenius.Genius(
-    "Wj7TpmXRRUzEo5buJAmUrFLKUm1zr00itM56iQyFgjczN2y6eq9cvErPiKztjxKT",
+    "genius-api-key",
     skip_non_songs=True,
     remove_section_headers=True
 )
